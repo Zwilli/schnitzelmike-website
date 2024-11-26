@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  template: `<div>tis a website {{value}}</div>`,
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  value = 'by the mike of the schnitzels';
+  title = 'moik';
 }

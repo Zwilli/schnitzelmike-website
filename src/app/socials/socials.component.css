@@ -1,0 +1,6 @@
+.border{
+    border: 0.3rem solid black;
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem;
+}

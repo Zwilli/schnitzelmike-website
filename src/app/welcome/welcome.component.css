@@ -1,0 +1,26 @@
+body{
+    padding: 10px;
+}
+
+.beeg-text{
+    font-size: 5rem;
+}
+
+.warning{
+    color: yellow;
+    font-size: 2rem;
+    padding: 15px;
+    margin: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}

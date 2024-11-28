@@ -10,9 +10,32 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FriendsComponent } from './friends/friends.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatToolbarModule } from '@angular/material/toolbar'
+import { MatButtonModule } from '@angular/material/button'
+
+const materialModules = [
+  MatToolbarModule,
+  MatButtonModule,
+]
+
+
 @NgModule({
-  declarations: [AppComponent, SocialsComponent, WelcomeComponent, NavBarComponent, FriendsComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  declarations: [
+    AppComponent,
+    SocialsComponent,
+    WelcomeComponent,
+    NavBarComponent,
+    FriendsComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ...materialModules
+  ],
+  exports:[
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

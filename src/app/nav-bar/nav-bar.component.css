@@ -1,4 +1,17 @@
 body{
     width: 100%;
     background-color: yellowgreen;
+    text-align: center;
+}
+
+button{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.center{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }

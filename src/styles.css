@@ -1,3 +1,11 @@
+
+/* @import '@angular/material/prebuilt-themes/indigo-pink.css';
+@include mat-core();
+
+
+$schnitzel-primary: mat-palette($mat-cyan); */
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkslategrey;
